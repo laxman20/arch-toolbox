@@ -8,7 +8,7 @@ RUN pacman -Sy --noconfirm \
 	    otf-font-awesome \
 	    ttf-roboto \
 	    adobe-source-sans-fonts \
-	    && pacman -Sy --clean --clean
+	    && pacman -S --clean --clean
 
 RUN echo "en_CA.UTF-8 UTF-8" >> /etc/locale.gen
 RUN locale-gen
