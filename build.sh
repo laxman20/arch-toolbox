@@ -1,4 +1,5 @@
 #!/bin/bash
+IMAGE="ghcr.io/laxman20/arch-toolbox"
 toolbox rm --force arch
-podman build --pull=always --squash --tag arch-toolbox .
-toolbox create arch -i arch-toolbox
+podman pull "$IMAGE"
+toolbox create arch -i "$IMAGE"
