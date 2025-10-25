@@ -1,0 +1,7 @@
+fish
+wl-clipboard
+neovim
+typst
+otf-font-awesome
+ttf-roboto
+adobe-source-sans-fonts
