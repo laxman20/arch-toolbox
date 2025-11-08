@@ -1,5 +1,7 @@
 FROM quay.io/toolbx/arch-toolbox:latest
 
+ENV EDITOR=nvim
+
 COPY packages.txt /tmp/packages.txt
 RUN pacman -Sy --noconfirm && \
     cat /tmp/packages.txt | xargs pacman -S --noconfirm && \
