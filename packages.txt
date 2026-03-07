@@ -6,3 +6,4 @@ otf-font-awesome
 ttf-roboto
 adobe-source-sans-fonts
 jpegoptim
+pandoc
