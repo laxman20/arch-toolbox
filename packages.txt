@@ -7,6 +7,6 @@ ttf-roboto
 adobe-source-sans-fonts
 jpegoptim
 pandoc
-emacs
+emacs-nox
 ripgrep
 fd
