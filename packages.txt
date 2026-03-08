@@ -7,3 +7,6 @@ ttf-roboto
 adobe-source-sans-fonts
 jpegoptim
 pandoc
+emacs
+ripgrep
+fd
